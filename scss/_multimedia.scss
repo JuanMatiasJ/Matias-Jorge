@@ -1,0 +1,89 @@
+/*--------------Fotos--------------*/
+.fotosUno {
+    text-align: center;
+}
+.fotosDos {
+    width: 350px;
+    border-radius: 5px;
+    border: rgb(128, 218, 191) 5px outset;
+}
+.bernabeu {
+    width: 400px;
+    height: 200px;
+    border-radius: 5%;
+    border: rgb(128, 218, 191) 5px outset;
+}
+/*--------------Fotos--------------*/
+
+/*---------Inicio-Flex-Box-Info------------*/
+.contenedorPadre {
+    background-color: rgb(3, 16, 31);
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 50px;
+}
+
+.ima {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 20px;
+    
+}
+.Uno{
+    background-color: rgb(145, 203, 229);
+    opacity: .4;
+    border: 2px double white;
+}
+.Uno:hover {
+    opacity: 1;
+    border: solid 2px rgb(126, 38, 38);
+}
+.Dos {
+    background-color: cadetblue;
+    opacity: .4;
+    border: 2px double white;
+}
+.Dos:hover{ 
+    opacity: 1;
+    border: solid 2px rgb(126, 38, 38);
+}
+.Tres {
+    background-color: cornflowerblue;
+    opacity: .4;
+    border: 2px double white;
+}
+.Tres:hover{
+    opacity: 1;
+    border: solid 2px rgb(126, 38, 38);
+}
+/*---------Fin-Flex-Box_Info---------------*/
+
+/*------------Inicio Carousel--------------*/
+.mainCarousel{
+    width: 400px;
+    margin: auto;
+}
+/*--------------Fin Carousel---------------*/
+
+
+
+/*--------------Videos-------------*/
+
+.video {
+    width: 300px;
+    height: 333px;
+    border-radius: 5%;
+}
+.video1 {
+    text-align: center;
+    border-radius: 5%;
+}
+
+/*--------------Videos-------------*/
+

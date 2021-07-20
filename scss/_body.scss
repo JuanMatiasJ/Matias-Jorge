@@ -1,0 +1,85 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {   
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3e2c7+0,c19e67+50,b68d4c+51,e9d4b3+100;L+Brown+3D */
+background: #f3e2c7; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+header {
+    background-color: darkorchid;
+    width: 98%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}
+.logo {
+    width: 55%;
+    border-radius: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    animation-duration: 2.5s;
+    animation-delay: .3s;
+}
+nav {
+    background-color: darkorchid;
+    width: 97%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+ul {
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+    display: contents;
+    
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    background-color: darkorchid;
+}
+a:visited {
+    color: #9acd32;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .footer {
+        background-color: #00008b;
+    }
+    h5 {
+        color: darkgoldenrod;
+        font-size: 1rem;
+    }    
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer {
+        background: linear-gradient( to top, darkorchid , rgba(94, 125, 192, 0.753));
+    }
+    h5 {
+        color: rgb(132, 202, 132);;
+        font-size: 2rem;
+    }
+}
