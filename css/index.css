@@ -133,7 +133,7 @@ h5 {
   text-align: center; }
 
 .fotosDos {
-  width: 350px;
+  width: 35rem;
   border-radius: 5px;
   border: #80dabf 5px outset; }
 
@@ -157,10 +157,10 @@ h5 {
   margin: 50px; }
 
 .ima {
-  width: 300px;
-  height: 200px;
-  margin: 30px;
-  padding: 20px; }
+  width: 14rem;
+  height: 12.5rem;
+  margin: 1.5rem;
+  padding: 1rem; }
 
 .Uno {
   background-color: #91cbe5;
@@ -192,14 +192,14 @@ h5 {
 /*---------Fin-Flex-Box_Info---------------*/
 /*------------Inicio Carousel--------------*/
 .mainCarousel {
-  width: 400px;
+  width: 25rem;
   margin: auto; }
 
 /*--------------Fin Carousel---------------*/
 /*--------------Videos-------------*/
 .video {
-  width: 300px;
-  height: 333px;
+  width: 12.9rem;
+  height: 24rem;
   border-radius: 5%; }
 
 .video1 {
@@ -224,11 +224,9 @@ h5 {
   font-family: 'Odibee Sans', cursive;
   color: darkorchid;
   font-size: 1rem;
-  margin: 10px;
   margin: auto;
-  padding: 5px;
   border: #80dabf 5px outset;
-  width: 100%;
+  width: 50%;
   height: 200px;
   overflow: auto;
   border-radius: 5px;
